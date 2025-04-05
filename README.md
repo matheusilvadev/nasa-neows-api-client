@@ -26,32 +26,6 @@ Este projeto é uma API cliente construída com Spring Boot e WebFlux para inter
 * [Maven](https://maven.apache.org/download.cgi.html) ou [Gradle](https://gradle.org/install/) instalado (dependendo do seu sistema de build).
 * Uma [chave de API da NASA](https://api.nasa.gov/) (você precisará se registrar para obter uma chave gratuita).
 
-## Configuração
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [URL_DO_SEU_REPOSITORIO]
-    cd [NOME_DO_SEU_REPOSITORIO]
-    ```
-
-2.  **Configure a chave de API e a URL base:**
-    Crie ou edite o arquivo `src/main/resources/application.properties` (ou `application.yml`) e adicione sua chave de API da NASA e a URL base da API neoWs:
-    ```properties
-    api.key=SUA_CHAVE_DE_API
-    nasa.api.base-url=[https://api.nasa.gov/neo/rest/v1/](https://api.nasa.gov/neo/rest/v1/)
-    ```
-    Substitua `SUA_CHAVE_DE_API` pela sua chave real.
-
-3.  **Build do projeto:**
-    Se você estiver usando Maven:
-    ```bash
-    mvn clean install
-    ```
-    Se você estiver usando Gradle:
-    ```bash
-    ./gradlew clean build
-    ```
-
 ## Como Executar a Aplicação
 
 Após o build bem-sucedido, você pode executar a aplicação Spring Boot:
