@@ -1,4 +1,4 @@
-# nasa-neows-client (ou o nome que você escolheu)
+# nasa-neows-client
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://...) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) 
 ## Descrição
